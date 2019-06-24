@@ -1,0 +1,56 @@
+body {
+  /*! background-color: white; */
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  color: #444;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 220px;
+  width: 220px;
+  margin: auto;
+  grid-gap: 5px;
+  overflow: hidden;
+}
+
+.gridItem {
+  text-align: center;
+  width: 66.6px;
+  height: 66.6px;
+  overflow: hidden;
+  font-size: 50px;
+  cursor: pointer;
+  padding-top: 10%;
+}
+
+.gridItem:hover {
+  background-color: #a2bdc3;
+}
+
+.row2 {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+}
+
+.column2 {
+  border-right: 1px solid;
+  border-left: 1px solid;
+}
+
+.inputArea {
+  position: relative;
+  font-size: 50px;
+}
+
+button {
+  margin: 50px;
+}
